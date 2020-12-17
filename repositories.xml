@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>lqu3j</name>
+    <description lang="en">lqu3j Custom Gentoo Overlay.</description>
+    <homepage>https://github.com/lqu3j/repos</homepage>
+    <owner type="person">
+       <name>lqu3j</name>
+       <email>lqu3qf@gmail.com</email>
+    </owner>
+    https://github.com/lqu3j/repos.git
+    <feed>https://github.com/my-name/my-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
