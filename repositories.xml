@@ -1,14 +1,14 @@
-<?xml version="1.0" ?>
-<repositories version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
   <repo quality="experimental" status="unofficial">
     <name>lqu3j</name>
-    <description lang="en">lqu3j Custom Gentoo Overlay.</description>
+    <description>lqu3j Custom Gentoo Overlay.</description>
     <homepage>https://github.com/lqu3j/repos</homepage>
     <owner type="person">
-       <name>lqu3j</name>
-       <email>lqu3qf@gmail.com</email>
+      <email>lqu3qf@gmail.com</email>
+      <name>lqu3j</name>
     </owner>
-    https://github.com/lqu3j/repos.git
-    <feed>https://github.com/lqu3j/repos/commits/master.atom</feed>
+    <source type="git">https://github.com/lqu3j/repos.git</source>
   </repo>
 </repositories>
