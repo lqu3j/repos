@@ -6,9 +6,7 @@ EAPI=7
 
 DESCRIPTION="Sogou Pinyin input method."
 HOMEPAGE="http://pinyin.sogou.com/linux/"
-SRC_URI="amd64? ( http://pinyin.sogou.com/linux/download.php?f=linux&bit=64 -> ${PN}_${PV}_amd64.deb )
- x86? ( http://pinyin.sogou.com/linux/download.php?f=linux&bit=32 -> ${PN}_${PV}_i386.deb )
-"
+SRC_URI="http://cdn2.ime.sogou.com/dl/index/1605612770/sogoupinyin_2.4.0.2732_amd64.deb"
 
 LICENSE="Fcitx-Sogou"
 SLOT="0"
