@@ -16,17 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 RESTRICT="mirror"
 
-RDEPEND=">=app-i18n/fcitx-4.2.8[qt4,X]
-!app-i18n/fcitx-qimpanel
-net-dns/libidn
-app-i18n/opencc
-net-libs/libssh2
-media-video/rtmpdump
-dev-qt/qtdeclarative:4
-dev-qt/qtgui:4
-x11-apps/xprop
+RDEPEND=">=app-i18n/fcitx-4.2.9[opencc]
+app-i18n/fcitx-qt5
 sys-apps/lsb-release
-!app-i18n/fcitx-sogoupinyin"
+dev-qt/qtdeclarative
+dev-qt/qtsvg
+x11-apps/xprop"
+
 DEPEND="${RDEPEND}"
 S=${WORKDIR}
 
