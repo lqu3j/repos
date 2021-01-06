@@ -6,7 +6,7 @@ EAPI=7
 
 DESCRIPTION="Sogou Pinyin input method."
 HOMEPAGE="http://pinyin.sogou.com/linux/"
-SRC_URI="http://cdn2.ime.sogou.com/dl/index/1605612770/sogoupinyin_2.4.0.2732_amd64.deb"
+SRC_URI="http://cdn2.ime.sogou.com/dl/index/1605612770/sogoupinyin_2.4.0.2942_amd64.deb"
 
 LICENSE="MIT"
 SLOT="0"
