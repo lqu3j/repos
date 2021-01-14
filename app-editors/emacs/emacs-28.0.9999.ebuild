@@ -146,6 +146,7 @@ src_prepare() {
 	if [[ ${PV##*.} = 9999 ]]; then
 		local branch="${EGIT_BRANCH}"
 		if use native-comp; then
+			EGIT_BRANCH="feature/native-comp"
 			branch="feature/native-comp"
 			git checkout "${branch}" || die "Could not switch to ${branch} branch"
 		fi
