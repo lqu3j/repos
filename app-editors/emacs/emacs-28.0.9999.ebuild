@@ -10,7 +10,7 @@ if [[ ${PV##*.} = 9999 ]]; then
 	EGIT_REPO_URI="https://git.savannah.gnu.org/git/emacs.git"
 	# To obtain both master and feature/native-comp branches
 	EGIT_MIN_CLONE_TYPE="mirror"
-	EGIT_BRANCH="master"
+	EGIT_BRANCH="feature/native-comp"
 	EGIT_CHECKOUT_DIR="${WORKDIR}/emacs"
 	S="${EGIT_CHECKOUT_DIR}"
 	SLOT="${PV%%.*}-vcs"
@@ -146,7 +146,6 @@ src_prepare() {
 	if [[ ${PV##*.} = 9999 ]]; then
 		local branch="${EGIT_BRANCH}"
 		if use native-comp; then
-			EGIT_BRANCH="feature/native-comp"
 			branch="feature/native-comp"
 			git checkout "${branch}" || die "Could not switch to ${branch} branch"
 		fi
